@@ -17,6 +17,8 @@
 		0CD7B67624B371A500E53759 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7B67524B371A500E53759 /* Order.swift */; };
 		0CD7B67824B371F300E53759 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7B67724B371F300E53759 /* Menu.swift */; };
 		0CD7B67A24B3728000E53759 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CD7B67924B3728000E53759 /* menu.json */; };
+		0CD7B67C24B3DD2600E53759 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7B67B24B3DD2600E53759 /* ItemRow.swift */; };
+		0CD7B67E24B4D9B700E53759 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7B67D24B4D9B700E53759 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		0CD7B67524B371A500E53759 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		0CD7B67724B371F300E53759 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		0CD7B67924B3728000E53759 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		0CD7B67B24B3DD2600E53759 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		0CD7B67D24B4D9B700E53759 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				0CD7B67324B3715A00E53759 /* Helper.swift */,
 				0CD7B66124B36E5900E53759 /* SceneDelegate.swift */,
 				0CD7B66324B36E5900E53759 /* ContentView.swift */,
+				0CD7B67B24B3DD2600E53759 /* ItemRow.swift */,
+				0CD7B67D24B4D9B700E53759 /* ItemDetail.swift */,
 				0CD7B66524B36E5A00E53759 /* Assets.xcassets */,
 				0CD7B66A24B36E5A00E53759 /* LaunchScreen.storyboard */,
 				0CD7B66D24B36E5A00E53759 /* Info.plist */,
@@ -162,7 +168,9 @@
 				0CD7B67824B371F300E53759 /* Menu.swift in Sources */,
 				0CD7B66024B36E5900E53759 /* AppDelegate.swift in Sources */,
 				0CD7B66224B36E5900E53759 /* SceneDelegate.swift in Sources */,
+				0CD7B67C24B3DD2600E53759 /* ItemRow.swift in Sources */,
 				0CD7B67624B371A500E53759 /* Order.swift in Sources */,
+				0CD7B67E24B4D9B700E53759 /* ItemDetail.swift in Sources */,
 				0CD7B66424B36E5900E53759 /* ContentView.swift in Sources */,
 				0CD7B67424B3715A00E53759 /* Helper.swift in Sources */,
 			);
