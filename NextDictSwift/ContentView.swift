@@ -9,41 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
-  @State private var selection = 0
-  
   let menu = Bundle.main.decode([MenuSection].self, from: "menu.json")
   
   var body: some View {
-    TabView(selection: $selection){
-      NavigationView {
-        List {
-          ForEach(menu) { section in
-            Section(header: Text(section.name)) {
-              ForEach(section.items) { item in
-                ItemRow(item: item)
-              }
+    NavigationView {
+      List {
+        ForEach(menu) { section in
+          Section(header: Text(section.name)) {
+            ForEach(section.items) { item in
+              ItemRow(item: item)
             }
           }
         }
-        .navigationBarTitle("Menu")
-        .listStyle(GroupedListStyle())
       }
-      .tabItem {
-        VStack {
-          Image("first")
-          Text("First")
-        }
-      }
-      .tag(0)
-      Text("Second View")
-        .font(.title)
-        .tabItem {
-          VStack {
-            Image("second")
-            Text("Second")
-          }
-      }
-      .tag(1)
+      .navigationBarTitle("Menu")
+      .listStyle(GroupedListStyle())
     }
   }
 }
