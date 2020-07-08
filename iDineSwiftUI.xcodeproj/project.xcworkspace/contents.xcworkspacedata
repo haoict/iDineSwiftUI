@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NextDictSwift.xcodeproj">
+      location = "self:/Users/hao.nguyen/Documents/haonguyen/xcode/NextDictSwift/iDineSwiftUI.xcodeproj">
    </FileRef>
 </Workspace>
